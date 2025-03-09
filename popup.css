@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Body of the popup */
+  body {
+    width: 420px;
+    min-height: 420px;
+    font-family: "Trebuchet MS", "Segoe UI", Tahoma, sans-serif;
+    background: radial-gradient(circle, #08081c, #1a1a3f);
+    border-radius: 15px;
+    border: 2px solid #4f4c99;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Container for mission content */
+  #missionContainer {
+    width: 90%;
+    margin: 20px;
+    padding: 25px;
+    background-color: rgba(40, 40, 80, 0.7);
+    border-radius: 15px;
+    border: 1px solid #2f2b66;
+    box-shadow: 0 0 10px rgba(128, 128, 255, 0.2);
+    text-align: center;
+    color: #f3f3ff;
+  }
+  
+  /* Title text */
+  .rocket-title {
+    margin-bottom: 15px;
+    font-size: 1.6rem;
+    color: #fffa85;
+    text-shadow: 0 0 5px #fffa85;
+  }
+  
+  /* Paragraph text */
+  .rocket-paragraph {
+    margin-bottom: 15px;
+    font-size: 1rem;
+    color: #e0e0fa;
+  }
+  
+  /* Main rocket image */
+  .rocket-image {
+    display: block;
+    max-width: 100%;
+    width: 160px;
+    height: auto;
+    margin: 0 auto 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  }
+  
+  /* Input field */
+  .rocket-input {
+    display: block;
+    width: 100%;
+    margin: 0 auto 15px;
+    padding: 12px;
+    font-size: 1rem;
+    border: 2px solid #6b66d6;
+    border-radius: 8px;
+    background-color: #1a1a3f;
+    color: #e0e0fa;
+    text-align: center;
+    outline: none;
+  }
+  
+  /* Button */
+  .rocket-button {
+    padding: 12px 20px;
+    margin: 10px auto;
+    display: inline-block;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 2px solid #6b66d6;
+    border-radius: 8px;
+    background: linear-gradient(to bottom, #302e68, #1a1a3f);
+    color: #e0e0fa;
+    font-weight: bold;
+    text-shadow: 0 0 5px #6b66d6;
+    box-shadow: 0 0 8px #6b66d6;
+    transition: transform 0.1s, box-shadow 0.1s;
+  }
+  .rocket-button:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 12px #6b66d6;
+  }
+  .rocket-button:active {
+    transform: translateY(2px);
+    box-shadow: 0 0 5px #6b66d6;
+  }
+  
+  /* Status message */
+  .rocket-status {
+    margin-top: 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fffa85;
+    text-shadow: 0 0 5px #fffa85;
+  }
+  
+  /* Timer container styling (for Pomodoro) */
+  #timerContainer {
+    width: 90%;
+    margin: 20px auto;
+    padding: 25px;
+    background-color: rgba(40, 40, 80, 0.7);
+    border-radius: 15px;
+    border: 1px solid #2f2b66;
+    text-align: center;
+    color: #f3f3ff;
+    box-shadow: 0 0 10px rgba(128, 128, 255, 0.2);
+  }
+  
